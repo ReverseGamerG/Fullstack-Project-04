@@ -1,0 +1,33 @@
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  color: var(--text-color-primary);
+}
+
+#navbar img:last-child {
+  vertical-align: middle;
+}
+
+#navbar a{
+  display: flex;
+  font: var(--h2);
+  font-weight: 600;
+  gap: 8px;
+}
+
+#navbar h1{
+  font: var(--h1);
+  color: var(--brand-color-light);
+}
+
+#navbarsec{
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 32px;
+  color: var(--text-color-secondary);
+  font: var(--text-span);
+  border-top: 1px solid var(--stroke-color);
+  border-bottom: 1px solid var(--stroke-color);
+}
