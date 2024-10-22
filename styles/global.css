@@ -40,6 +40,10 @@ h1,h2,h3{
   font: inherit;
 }
 
-#container{
+main{
   margin: 40px 32px auto;
+}
+
+h3:hover{
+  color: var(--brand-color-light);
 }
