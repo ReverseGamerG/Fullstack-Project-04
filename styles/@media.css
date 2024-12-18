@@ -1,0 +1,131 @@
+@media (width <= 64em){
+  .desktop-only{
+    display: none;
+  }
+
+  header.container{
+    padding-inline: 1rem;
+
+    #primary{
+      padding-block: 1rem;
+    }
+
+    #secondary{
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: .875rem 1rem;
+      gap: 1rem;
+      grid-template-columns: 8rem 1fr 1fr 1fr 1fr 9rem 8rem;
+      grid-template-rows: repeat(1, 1.25rem);
+
+      a{
+        font-size: .875rem;
+      }
+    }
+  }
+
+  main.container{
+    padding: 1rem;
+    margin: 1rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #featured{
+    display: flex;
+    flex-direction: column;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+
+    & > div{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #image-01{
+      overflow: hidden;
+
+      img{
+        height: 26rem;
+      }
+
+      figcaption{
+        padding: 1rem;
+
+        h2{
+          font-size: 1.5rem;
+
+          strong{
+            display: initial;
+          }
+
+          span{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  #weekly{
+    #weekly-div{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  #ai{
+    header{
+      h3{
+        font-size: .875rem;
+      }
+    }
+
+    div{
+      article{
+        overflow: hidden;
+        grid-template-areas: 
+        "img div";
+
+        h3{
+          overflow: hidden;
+          strong{
+            display: initial;
+          }
+
+          span{
+            display: none;
+          }
+
+         height: 2.5rem;
+        }
+
+        p{
+          strong{
+            display: initial;
+          }
+
+          span{
+            display: none;
+          }
+
+          height: 5.5rem;
+        }
+
+        .article-img{
+          grid-area: img;
+        }
+      }
+    }
+  }
+}

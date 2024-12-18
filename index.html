@@ -15,16 +15,17 @@
     <nav id="primary" class="grid grid-flow-col">
       <div>
         <img src="./assets/icons/List.svg" alt="">
-        <strong>Menu</strong>
+        <strong class="desktop-only">Menu</strong>
       </div>
       <div>
         <img src="./assets/Tech News.svg" alt="">
       </div>
       <div>
-        <strong>Buscar</strong>
+        <strong class="desktop-only">Buscar</strong>
         <img src="./assets/icons/MagnifyingGlass.svg" alt="">
       </div>
     </nav>
+    
     <nav id="secondary" class="grid grid-flow-col">
       <a href="#">Inteligência Artificial</a>
       <a href="#">Blockchain</a>
@@ -38,11 +39,11 @@
 
   <main class="grid container">
     <section id="featured" class="grid grid grid-flow-col gap-16">
-      <figure class="card">
+      <figure class="card" id="image-01">
         <img src="./assets/images/Image 01.png" alt="">
         <figcaption>
           <span class="content-tag">Robótica</span>
-          <h2 class="text-2xl">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
+          <h2 class="text-2xl">Robôs domésticos começam a ser adotados para tarefas <strong>...</strong><span>diárias, prometendo mais conforto e eficiência nas residências.</span></h2>
         </figcaption>
       </figure>
 
@@ -99,7 +100,7 @@
         </a>
       </header>
 
-      <div class="grid gap-16">
+      <div class="grid gap-16" id="weekly-div">
         <figure>
           <span class="content-tag">Veículos</span>
           <img src="./assets/images/Image 06.png" alt="">
@@ -142,37 +143,40 @@
             <h3 class="text-xl">Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</h3>
             <p class="text-sm">Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até pla...</p>
           </div>
-          <div>
+          <div class="article-img">
             <img src="./assets/images/Image 10.png" alt="">
           </div>
         </article>
+
         <article class="grid grid-flow-col gap-16">
           <div>
             <span class="content-tag">Inteligência Artificial</span>
             <h3 class="text-xl">Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</h3>
             <p class="text-sm">Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, independe...</p>
           </div>
-          <div>
+          <div class="article-img">
             <img src="./assets/images/Image 11.png" alt="">
           </div>
         </article>
+
         <article class="grid grid-flow-col gap-16">
           <div>
             <span class="content-tag">Inteligência Artificial</span>
             <h3 class="text-xl">Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usu...</h3>
             <p class="text-sm">A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para f...</p>
           </div>
-          <div>
+          <div class="article-img">
             <img src="./assets/images/Image 12.png" alt="">
           </div>
         </article>
+
         <article class="grid grid-flow-col gap-16">
           <div>
             <span class="content-tag">Inteligência Artificial</span>
             <h3 class="text-xl">Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.</h3>
             <p class="text-sm">No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenci...</p>
           </div>
-          <div>
+          <div class="article-img">
             <img src="./assets/images/Image 13.png" alt="">
           </div>
         </article>

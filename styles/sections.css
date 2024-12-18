@@ -57,6 +57,10 @@ section header{
 
       h2{
         margin-top: 8px;
+
+        strong{
+          display: none;
+        }
       }
     }
 
@@ -116,6 +120,16 @@ section header{
 
   h3{
     margin-block: 8px 4px;
+
+    strong{
+      display: none;
+    }
+  }
+
+  p{
+    strong{
+      display: none;
+    }
   }
 }
 
